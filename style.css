@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+body {
+    background-image: url(background-image.png);
+    background-size: cover;
+    font-family: 'Martian Mono', monospace;
+    color: #550303;
+    text-align: center;
+}
+
+.container {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f0f0f0;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 8px 0;
+border-bottom: 1px solid #ddd;
+}
+
+button {
+height: 7vh;
+width: 12vh;
+background-color: #c03535;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #550303;
+}
+
+#taskInput{
+    width: 50%;
+    height: 5vh;
+}
